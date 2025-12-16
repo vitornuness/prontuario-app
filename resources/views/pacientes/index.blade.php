@@ -38,10 +38,10 @@
                 <tr>
                     <td>{{ $paciente->id }}</td>
                     <td>{{ $paciente->nome }}</td>
-                    <td>{{ $paciente->cpf }}</td>
-                    <td>{{ $paciente->telefone }}</td>
+                    <td>{{ $paciente->cpf_formatado }}</td>
+                    <td>{{ $paciente->telefone_formatado }}</td>
                     <td>{{ $paciente->email }}</td>
-                    <td>{{ $paciente->data_nascimento }}</td>
+                    <td>{{ $paciente->data_nascimento_formatada }}</td>
                     <td>aqui vão as ações</td>
                 </tr>
                 @empty
